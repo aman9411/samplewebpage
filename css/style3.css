@@ -437,13 +437,13 @@ header span img{
   }
   .king video{
     margin-bottom: 140px;
-    margin-right: -65px;
+    margin-right: -165px;
     width:70%;
 
   }
   .king .close{
     top:30px;
-    right:35px;
+    right:0px;
     cursor: pointer;
     filter: invert(1);
     max-width: 32px;
