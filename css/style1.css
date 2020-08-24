@@ -262,7 +262,7 @@ header .logo span{
 	}
 }
 
-@media(max-width: 991px) and (min-width:727px){
+@media(max-width: 1030px) and (min-width:727px){
 	body video{
 		height:200%;
 	}
@@ -355,6 +355,9 @@ header .logo span{
 
 @media(max-width: 654px) and (min-width:545px) {
 
+	body video{
+		height:200%;
+	}
 	header{
 		padding:10px 50px;
 	}
@@ -416,6 +419,9 @@ header .logo span{
 
 	@media(max-width: 544px) and (min-width:431px){
 
+		body video{
+			height:200%;
+		}
 		header{
 			padding:20px 50px;
 		}
@@ -475,13 +481,17 @@ header .logo span{
 
 @media(max-width: 430px) and (min-width: 351px) {
 
+	body video{
+		height:200%;
+	}
+
 	header{
 		padding:20px 50px;
 	}
 
 	.navbar-brand h1
 	{
-		font-size: 15px;
+		font-size: 25px;
 		font-weight: 400;
 		letter-spacing: 2px;
 
@@ -490,7 +500,7 @@ header .logo span{
 		width:40%;
 	}
 	.navbar-toggler{
-		margin-left: 5px;
+		margin-left: 30px;
 
 	}
 
@@ -525,15 +535,15 @@ header .logo span{
 	.sci{
 		z-index: 1000;
 		left:initial;
-		right:20px;
+		right:-10px;
 		flex-direction: column;
 	}
 	.banner .imgBox img{
-		right:-50px;
+		right:-80px;
 	}
 }
 
-@media(max-width: 349px) {
+@media(max-width: 350px) {
 
  header{
 	 padding:20px 50px;
