@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width , initial-scale = 1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/style3.css">
+    <title>kingfisher</title>
+  </head>
+  <body>
+
+    <img class="photo" src="images\kingfisher.jpg">
+    <header>
+      <button id="navbarToggle" class="navbar-toggler navbar-dark visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span><img src="images\toggle.png"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav ml-auto">
+         <li id="navHomeButton" class="visible-xs">
+           <a class="nav-link active" href="#">About</a>
+         </li>
+         <li id="navMenuButton">
+           <a class="nav-link" href="#" onclick="toggle();">video</a>
+         </li>
+       </ul>
+      </div>
+
+    </header>
+
+
+    <div class="jumbotron">
+      <img src="images\kingfisher.jpg">
+    </div>
+     <div class="heading">
+       <h1>king<span>fisher</span></h1>
+       <div class="about">
+        <p>kingfishers are small birds of the order of coraciiformes. There are about 90 species, mostly in the Old world and Australasia, Most species are tropical in distribution. Their feathers are often bright colours, such as blue or orange. They have large heads, long, sharp bills, short legs, and stubby tails.</p>
+         <div class="more">
+            <a href="#">learn More</a>
+         </div>
+       </div>
+     </div>
+     <div class="icon">
+       <ul class="sci">
+         <li><a href="#"><img src="images\twitter.png"></a></li>
+         <li><a href="#"><img src="images\instagram.png"></a></li>
+         <li><a href="#"><img src="images\facebook.png"></a></li>
+       </ul>
+     </div>
+     <div class="info">
+       <ul class="nav">
+         <li><a href="#" class="active">About</a></li>
+         <li><a href="#" onclick="toggle();">Video</a></li>
+       </ul>
+     </div>
+     <div class="king">
+       <video src="images\kingfisher.mp4" controls="true"></video>
+       <img src="images\cross.png" class="close" onclick="toggle();">
+     </div>
+
+     <script type="text/javascript">
+       function toggle(){
+         var king = document.querySelector('.king');
+         king.classList.toggle('active')
+       }
+     </script>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
